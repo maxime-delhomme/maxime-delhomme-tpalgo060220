@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
   struct Chapitre1{
 	char description[100];
 	int tabChapi[3];
@@ -62,11 +63,6 @@ int main(){
         }
 	
 			printf ("\n chapitre3: Vous avez %d dor , %d pv et %d xp",dor, pv, xp);
-			
-	
-	
-	
-	
 	
 	printf("\n");
     return 0;
