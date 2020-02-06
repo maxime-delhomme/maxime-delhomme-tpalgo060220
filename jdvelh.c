@@ -4,10 +4,9 @@
 int main(int argc, char *argv[])
 {
     long choix = 0;
-    long vie = 10;
    
     printf (" jeu dont vous etes le heros\n\n"
-    " Acceptez-vous cette Mission ?\n\n  1.Oui\n  2.Non\n\n", vie);
+    " Acceptez-vous cette Mission ?\n\n  1.Oui\n  2.Non\n\n");
     scanf ("%ld", &choix);
    
     switch(choix)
